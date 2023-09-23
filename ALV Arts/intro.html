@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dokdo&family=Gloria+Hallelujah&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    
+    <style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+}
+
+    h1 {
+        font-family: 'Gloria Hallelujah', cursive;
+        font-size: 9.5vw;
+        color: white;
+        position: center;
+        text-align: center;
+        animation-duration: 2s;
+        animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+    h3 {
+        font-family: 'Gloria Hallelujah', cursive;
+        color: white;
+        position: center;
+        text-align: center;
+        overflow: hidden;
+        animation: centrar 1.5s 2.5s normal both;
+        margin-top: -2.7em;
+               
+}
+@keyframes centrar {
+  from {
+    width: 0;
+    font-size: 0;
+  }
+  to {
+    width: 100%;
+    font-size: 4.5vw;
+  }
+}
+    .contenedor-ingreso {
+      text-align: center;
+}
+
+    .ingreso {
+        text-decoration: none;
+        font-family: 'Bungee Spice', cursive;
+        position: center;
+        text-align: center;
+        overflow: hidden;
+        animation: aparecer 1.5s 4.5s normal both;
+        margin-top: -2.7em;
+}
+
+@keyframes aparecer {
+  from {
+    width: 0;
+    font-size: 0;
+  }
+  to {
+    width: 100%;
+    font-size: 4.5vw;
+  }
+}
+
+    .fondo {
+        position: fixed; 
+        top: 0;
+        left: 0;
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        z-index: -1; 
+}
+
+
+
+    
+
+    </style>
+</head>
+<body>
+    <audio src="kawai.mp3" autoplay loop></audio>
+
+    <h1> ALV Arts </h1>
+    <h3> Dibujos y diseños </h3>
+    <img class="fondo" src="assets/img/fondo.jpg">
+    <div class="contenedor-ingreso">
+        <a class="ingreso" href="inicio.html">Ingresar </a>
+    </div>
+  
+  
+</body>
+</html>
+
